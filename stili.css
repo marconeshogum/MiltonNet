@@ -1,0 +1,193 @@
+:root {
+  --defalt-blue: rgb(74, 147, 189);
+  --light-turquoise: turquoise;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao-prim {
+  background: var(--defalt-blue);
+  color: white;
+  text-transform: uppercase;
+  padding: 18px 60px;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 300ms ease;
+}
+
+.botao-prim:hover {
+  background: var(--light-turquoise);
+  cursor: pointer;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+#navbar {
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar .navbar-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+#navbar .navbar-container ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+  padding: 0 20px;
+  transition: all 300ms ease;
+}
+
+#navbar .navbar-container ul li:hover {
+  color: turquoise;
+  cursor: pointer;
+}
+
+#principal {
+  min-height: 100vh;
+  padding: 150px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url(/imagens/IMG-20211208-WA0005.jpg) center center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+}
+
+#principal .principal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#principal .principal-container h2 {
+  font-size: 5rem;
+}
+
+#principal .principal-container p {
+  margin: 10%;
+  font-size: 2rem;
+}
+
+/* sobre a empresa*/
+#sobre-empresa {
+  background: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 40px 30px 20px 30px;
+}
+
+#sobre-empresa .texto {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.contato {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.contato .formulario {
+  text-align: left;
+}
+/* rodape*/
+
+#footer {
+  background: black;
+  color: white;
+  padding-top: 80px;
+  align-items: center;
+}
+
+#footer .footer-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.sociais {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  transition: all 300ms ease;
+  padding: 15px 30px 15px 30px;
+}
+
+.sociais i {
+  margin: 0 20px;
+}
+
+.sociais i:hover {
+  color: var(--default-blue);
+  cursor: pointer;
+}
+
+.formulario {
+  background: black;
+  padding-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aqua;
+}
+
+.formulario .formu {
+  padding-bottom: 10px;
+  color: aqua;
+  width: 100%;
+}
+
+.formulario .formu input {
+  padding: 10px;
+  width: 100%;
+}
+
+.formulario .formu textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.formulario .formu label {
+  display: block;
+}
+
+.butao {
+  padding: 15px;
+  background-color: royalblue;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
