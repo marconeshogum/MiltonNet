@@ -76,7 +76,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  background: url(/imagens/IMG-20211208-WA0005.jpg) center center/cover;
+  background: url(imagens/IMG-20211208-WA0005.jpg) center center/cover;
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: color;
 }
